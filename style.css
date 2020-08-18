@@ -1,0 +1,67 @@
+#chess {
+	position: relative;
+	display: block;
+	width: 440px;
+	height: 480px;
+	background-color: #202336;
+}
+#canvas {
+	position: absolute;
+	margin: none;
+	top: 50px;
+	left: 20px;
+}
+#black-turn {
+	display: none;
+}
+.turn-text {
+	width: 320px;
+	height: 50px;
+	text-align: center;
+	position: absolute;
+	left: 20px;
+	top: -23px;
+	font-family: "Comfortaa", cursive;
+	font-size: 26px;
+	color: white;
+	line-height: 50px;
+}
+.check-text {
+	text-align: left;
+	position: absolute;
+	left: 345px;
+	font-family: "Comfortaa", cursive;
+	font-size: 24px;
+	color: white;
+	line-height: 20px;
+	display: none;
+}
+#black-check {
+	top: 37px;
+}
+#white-check {
+	top: 317px;
+}
+#controls {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	left: 20px;
+	top: 380px;
+	width: 320px;
+	justify-content: space-between;
+}
+.control-button {
+	position: relative;
+	background-color: #f1f0f7;
+	color: #5a944a;
+	width: 50px;
+	height: 40px;
+	padding: none;
+	cursor: pointer;
+	font-size: 18px;
+}
+#refresh {
+	font-weight: bolder;
+	font-size: 22px;
+}

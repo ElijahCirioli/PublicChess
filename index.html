@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="./style.css" rel="stylesheet" type="text/css" media="all" />
+		<title>Public Chess</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="chess">
+			<p class="turn-text" id="white-turn">WHITE'S TURN</p>
+			<p class="turn-text" id="black-turn">BLACK'S TURN</p>
+			<p class="check-text" id="white-check">✅</p>
+			<p class="check-text" id="black-check">✅</p>
+			<canvas id="canvas" width="320px" height="320px"></canvas>
+			<div id="controls">
+				<button class="control-button" id="<<">◀◀</button>
+				<button class="control-button" id="<">◀</button>
+				<button class="control-button" id="refresh">⭮</button>
+				<button class="control-button" id=">">▶</button>
+				<button class="control-button" id=">>">▶▶</button>
+			</div>
+			<script src="./index.js"></script>
+		</div>
+	</body>
+</html>
